@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Completo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Formulario de Registro</h2>
+
+    <form id="formulario">
+        
+        <input type="text" id="nombre" placeholder="Nombre completo">
+
+        <input type="number" id="edad" placeholder="Edad">
+
+        <input type="email" id="correo" placeholder="Correo electrónico">
+
+        <input type="text" id="grupo" placeholder="Grupo">
+
+        <input type="tel" id="telefono" placeholder="Teléfono">
+
+        <!-- Campos extra -->
+        <input type="date" id="fecha">
+
+        <input type="text" id="ciudad" placeholder="Ciudad">
+
+        <select id="materia">
+            <option value="">Materia favorita</option>
+            <option>Matemáticas</option>
+            <option>Programación</option>
+            <option>Historia</option>
+            <option>Inglés</option>
+        </select>
+
+        <textarea id="comentario" placeholder="Comentario"></textarea>
+
+        <button type="button" onclick="validar()">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
